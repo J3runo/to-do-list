@@ -35,9 +35,9 @@ function render() {
 
         const span = document.createElement("span");
         span.textContent = tarefas[i].text;
-
+ 
         const concluir = document.createElement("button");
-        concluir.classList.add("check");
+        concluir.classList.add("btn-concluir");
         concluir.innerHTML = `<span class="material-icons">${tarefas[i].completed ? 'check_box' : 'check_box_outline_blank'}</span>`;
         concluir.addEventListener("click", () => TrocaConcluir(tarefas[i].id));
 

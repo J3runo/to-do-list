@@ -26,6 +26,8 @@ body {
     color: #333;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     box-shadow: 4px 4px 10px rgba(24, 5, 54, 0.466);
+    
+
 }
 
 #tarefa-text {
@@ -43,7 +45,6 @@ body {
     background-color: rgb(216, 199, 199);
     border-radius: 5px;
     padding: 5px 10px;
-    margin-left: 10px;
     border: none;
     cursor: pointer;
 }
@@ -115,4 +116,10 @@ body {
 .completed{
     text-decoration: line-through
     
+}
+@media(max-width: 392px){
+    .container .entrada_info{
+        gap: 10px;
+        flex-direction: column;
+    }
 }
