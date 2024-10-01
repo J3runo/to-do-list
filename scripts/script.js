@@ -31,7 +31,7 @@ function render() {
 
         if (tarefas[i].completed) {
             li.classList.add("completed");
-        }
+        } 
 
         const span = document.createElement("span");
         span.textContent = tarefas[i].text;
